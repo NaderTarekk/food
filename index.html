@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" type="x-fcon" href="images/dish-1.png">
+</head>
+
+<body>
+    <!-- HEADER SECTION START -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <i href="" class="fas fa-heart"></i>
+            <a href="#menu" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+    <!-- SEARCH BAR -->
+    <form action="" id="search-form">
+        <input type="search" name="" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!-- HOME SECTION START-->
+    <section id="home" class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Spicy Noodles</h3>
+                        <p>Spice Noodles With vegetables and spicy sauce with cheddar cheese</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>fried chicken you will taste the best chicken in your life and free Rice with 1L pepsi</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>hot pizza Filled with mozzarella cheese and there are all kinds of meat, chicken and cheese
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+    <!-- HOME SECTION END-->
+
+
+    <!-- DISHES SECTION START -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading" data-aos="fade-right">Our Dishes</h3>
+        <h1 class="heading" data-aos="fade-left">POPULAR DISHES</h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-1.png" alt="">
+                <h3>beef burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="uil uil-star"></i>
+                </div>
+                <span>$10.50</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-2.png" alt="">
+                <h3>crispy chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$9.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-3.png" alt="">
+                <h3>fried chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                </div>
+                <span>$20</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-4.png" alt="">
+                <h3>hot pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$12.84</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-5.png" alt="">
+                <h3>chocolate cake</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$7.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="700">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-6.png" alt="">
+                <h3>crispy chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$10.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- DISHES SECTION END -->
+
+
+    <!-- ABOUT SECTION STARTS -->
+    <section class="about" id="about">
+        <h5 class="sub-heading" data-aos="fade-right" data-aos-duration="700">About Us</h5>
+        <h2 class="heading" data-aos="fade-left" data-aos-duration="700">WHY CHOOSE US ?</h2>
+        <div class="row">
+            <div class="image" data-aos="fade-right" data-aos-duration="700">
+                <img src="./images/about-img.png" alt="">
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-duration="700">
+                <h1>Best Food In The Country</h1>
+                <p>We have the best food and the best dishes from all countries and we have the fastest fast delivery
+                    service in any case, there is a 5% discount if you pay online, customer service and delivery is
+                    avaliable 24H</p>
+                <p>Choose your dish and enjoy the best offers that you can not miss and delivery as soon as possible</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy Payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Service</span>
+                    </div>
+                </div>
+                <a href="" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+
+
+    <!-- MENU SECTION START-->
+    <section class="menu" id="menu">
+        <h5 class="sub-heading" data-aos="fade-right" data-aos-duration="700">Our Menu</h5>
+        <h2 class="heading" data-aos="fade-left" data-aos-duration="700">TODAY'S SPEACIALITY</h2>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-1.jpg" alt="">
+                    <i href="#" class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Sausage pizza</h3>
+                    <p>large Sausage pizza with full of cheese and best taste </p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-2.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>beef burger</h3>
+                    <p>big piece of beef on this burger with tomatoes and cheddar cheese</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$20.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-3.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>sugar pie</h3>
+                    <p>best taste of suger pie you will ever seen in this place</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-4.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, minima?</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-5.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, minima?</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-6.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Ice cream ball with small peice of cake</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$5.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-7.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Smooth juice</h3>
+                    <p>smooth juice banana, mango, Strawberries...</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$3.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-8.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>fruits</h3>
+                    <p>dish of banana, mango, Strawberries and some of nuts</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-duration="700">
+                <div class="image">
+                    <img src="./images/menu-9.jpg" alt="">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star"></div>
+                        <div class="fas fa-star-half-alt"></div>
+                    </div>
+                    <h3>Big juice</h3>
+                    <p>smooth orange and lemon juice</p>
+                    <a href="" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- MENU SECTION END-->
+
+
+
+    <!-- REVIEW SECTION START-->
+    <section class="review" id="review">
+        <h5 class="sub-heading" data-aos="fade-right" data-aos-duration="700">Customer's Review</h5>
+        <h2 class="heading" data-aos="fade-left" data-aos-duration="700">WHAT THEY SAY</h2>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper rev">
+                <div class="swiper-slide slide" data-aos="fade-right">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>nader tarek</h3>
+                            <div class="stars">
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star-half-alt"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The best restaurant you will go to in your life, there are endless offers and the taste is very
+                        good and very tasty</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="fade-up">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Manar abdalla</h3>
+                            <div class="stars">
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The food is very good and the place is very clean, the best thing there is the offers and the
+                        workers are doing their job efficiently</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="fade-left">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>ahmad hassan</h3>
+                            <div class="stars">
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The best thing there is that they cook the food surprisingly fast and the taste is very good and
+                        the hygiene I give it a ten out of ten</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="fade-left">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>sara Mahmoud</h3>
+                            <div class="stars">
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star"></div>
+                                <div class="fas fa-star-half-alt"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>very good place, you must go there because you will get Cheap and delicious food </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- REVIEW SECTION END-->
+
+
+
+    <!-- ORDER SECTION START -->
+    <section class="order" id="order">
+        <h5 class="sub-heading" data-aos="fade-right" data-aos-duration="700">Order Now</h5>
+        <h2 class="heading" data-aos="fade-left" data-aos-duration="700">FREE AND FAST</h2>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input" data-aos="fade-right" data-aos-duration="700">
+                    <span>Your Name</span>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="input" data-aos="fade-left" data-aos-duration="700">
+                    <span>Your Number</span>
+                    <input type="text" placeholder="Enter Your Number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input" data-aos="fade-right" data-aos-duration="700">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter Order Name">
+                </div>
+                <div class="input" data-aos="fade-left" data-aos-duration="700">
+                    <span>Additional Food</span>
+                    <input type="text" placeholder="Extra With Food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input" data-aos="fade-right" data-aos-duration="700">
+                    <span>How Much</span>
+                    <input type="text" placeholder="How Many Orders">
+                </div>
+                <div class="input" data-aos="fade-left" data-aos-duration="700">
+                    <span>Date And Time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input" data-aos="fade-right" data-aos-duration="700">
+                    <span>Your Address</span>
+                    <textarea type="text" name="" row="10" col="30" placeholder="Enter Your Address"></textarea>
+                </div>
+                <div class="input" data-aos="fade-left" data-aos-duration="700">
+                    <span>Your Message</span>
+                    <textarea type="text" placeholder="Enter Your Message"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+    </section>
+    <!-- ORDER SECTION STARTS -->
+
+
+    <!-- FOOTER SECTION START-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">EGYPT</a>
+                <a href="#">Japan</a>
+                <a href="#">Russia</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Review</a>
+                <a href="#order">Order</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">nadertarek781@gmail.com</a>
+                <a href="#">+20 0111 677 0933</a>
+                <a href="#">link linkedin</a>
+                <a href="#">Cairo, Giza</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Linkedin</a>
+            </div>
+        </div>
+        <div class="credit">Copyright @ 2022 by <span>MR.NADER TAREK</span></div>
+    </section>
+    <!-- FOOTER SECTION END-->
+
+    <!-- LOADER PART -->
+    <div class="loader-container">
+        <img src="./images/loader.gif" alt="">
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+
+
+</body>
+
+</html>
